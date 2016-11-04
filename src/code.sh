@@ -32,8 +32,8 @@ java="java -Xmx${mem_in_mb}m"
 #
 # Run Picard
 #
-mkdir -p out/stats/
-$java -jar /picard.jar CollectMultipleMetrics I="$sorted_bam_path" R=genome.fa PROGRAM=CollectAlignmentSummaryMetrics PROGRAM=CollectInsertSizeMetrics PROGRAM=QualityScoreDistribution PROGRAM=MeanQualityByCycle PROGRAM=CollectBaseDistributionByCycle O="out/stats/$sorted_bam_prefix" $extra_options
+mkdir -p out/stats/QC/
+$java -jar /picard.jar CollectMultipleMetrics I="$sorted_bam_path" R=genome.fa PROGRAM=CollectAlignmentSummaryMetrics PROGRAM=CollectInsertSizeMetrics PROGRAM=QualityScoreDistribution PROGRAM=MeanQualityByCycle PROGRAM=CollectBaseDistributionByCycle O="out/stats/QC/$sorted_bam_prefix" $extra_options
 
 wait "$sorted_bam_pid"
 
