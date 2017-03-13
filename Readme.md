@@ -31,3 +31,8 @@ This app uses the CollectMultipleMetrics command from the Picard suite of tool. 
 
 http://broadinstitute.github.io/picard/command-line-overview.html#CollectMultipleMetrics
 
+## Modifications made to this app
+
+Files are output to a subfolder /QC/
+
+
