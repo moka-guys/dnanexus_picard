@@ -1,4 +1,4 @@
-# Picard CollectMultipleMetrics
+# Picard CollectMultipleMetrics v1.1.1
 
 ## What does this app do?
 
