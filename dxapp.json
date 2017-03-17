@@ -1,9 +1,9 @@
 {
   "name": "picard_collect_multiple_metrics",
-  "title": "Picard CollectMultipleMetrics",
+  "title": "v1.1.1 - Picard CollectMultipleMetrics",
   "summary": "Assess mapped read profiles in term of quality, insert size, and base distribution",
     "properties": {
-    "github release": "v1.1"
+    "github release": "v1.1.1"
   },
   "dxapi": "1.0.0",
   "inputSpec": [
